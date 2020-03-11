@@ -6,7 +6,8 @@ class base1
  	int x;
  	void getx()
     {
- 	    cout << "enter value of x: "; cin >> x;
+ 	    cout << "enter value of x: "; 
+      cin >> x;
     }
 };
 class base2
@@ -15,7 +16,8 @@ class base2
  	int y;
  	void gety()
  	{
- 	    cout << "enter value of y: "; cin >> y;
+ 	    cout << "enter value of y: ";
+      cin >> y;
  	}
 };
 class child : public base1, public base2
