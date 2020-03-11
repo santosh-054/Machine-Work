@@ -32,7 +32,6 @@ void student:: getper()
 {
 			cout<<"Enter the name of student";
 			cin>>name;
-			
 			cout<<"Gender:";
 			cin>>gender;
 			cout<<"Enter the age of student";
@@ -57,8 +56,9 @@ void student:: getedu()
 
 void per:: personal()
 {
+			
 			getper();
-			cout<<"Personal Details::"<<endl;
+			cout<<"\n \n \n Personal Details::"<<endl;
 			fflush(stdin);
 			cout<<"name of student"<<name<<endl;
 			cout<<"Gender:"<<gender<<endl;
@@ -67,8 +67,9 @@ void per:: personal()
 
 void edu:: educational()
 {
+	cout<<"\n \n \n";
 	getedu();
-	cout<<"Educational Details::"<<endl;
+	cout<<"\n \n \n Educational Details::"<<endl;
 	fflush(stdin);
 	cout<<"College    : "<<clg<<endl;
     cout<<"Level      : "<<level<<endl;
